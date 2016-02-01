@@ -1,0 +1,48 @@
+.card {
+	background-image: url("images/home_main_desktop.jpg");
+	background-size: cover;
+	height: 650px;4
+}
+button {
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin-bottom: 5px;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	font-family: Montserrat, sans-serif;
+		margin: auto;
+	display: block;
+}
+.central {
+
+	background-color: black;
+}
+p {
+	color: white;
+	/*padding-left: 465px;*/
+	display: inline-block;
+
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
