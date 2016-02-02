@@ -24,25 +24,69 @@ p {
 	display: inline-block;
 
 }
-.navbar ul {
+
+#navigation {
+    display: flex;
+
+}
+#navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-.navbar li {
-    float: left;
-}
-
-.navbar li a {
-    display: block;
-    color: white;
+    /*overflow: hidden;*/
+    background-color: white;
+    display: inline-flex;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    width: 100%;
+    margin-left: 16%;
+    word-spacing: 20px;
+}
+#navigation img {
+	width: 10%;
+	height: 100%;
+	margin-left: 6%;
+}
+#navigation ul li {
+	padding-left: 90px;
+} 
+
+#container1 {
+	background-color: #E1E1E1;
+	height: 53vh;
+	display: flex;
+	flex-direction: row;
+
 }
 
-.navbar li a:hover:not(.active) {
-    background-color: #111;
+#container1 img {
+	margin-left: 10%;
+	height: 40vh;
+	width: 50%;
+	border-top: solid;
+}
+.img p {
+	color: black;
+	background-color: white ;
+	width: 50%;
+	height: 6vh;
+	margin: auto;
+	margin-left: 10%;
+	border-bottom: solid;
+	text-align: center;
+	font-weight: bold;
+}
+
+#container2 {
+	background-image: url("images/slideshow-1.jpg");
+	background-size: cover;
+	height: 77vh;
+}
+
+#container2 h1 p {
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+
 }
