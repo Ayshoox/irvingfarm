@@ -1,8 +1,21 @@
-.card {
+.alignement {
+margin: 0 auto;
+width: 60%;
+display: flex;
+}
+
+#card {
 	background-image: url("images/home_main_desktop.jpg");
 	background-size: cover;
-	height: 650px;4
+	height: 650px;
 }
+.carte {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
 button {
 	background-color: #FFFFFF;
 	padding: 20px;
@@ -14,14 +27,18 @@ button {
 		margin: auto;
 	display: block;
 }
-.central {
 
+.bg1 {
+	width: 100%;
 	background-color: black;
 }
-p {
+#central p {
 	color: white;
-	/*padding-left: 465px;*/
-	display: inline-block;
+
+}
+#central {
+	display: flex;
+	justify-content: space-between;
 
 }
 
@@ -38,10 +55,10 @@ p {
     display: inline-flex;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 0px;
     text-decoration: none;
     width: 100%;
-    margin-left: 16%;
+   /* margin-left: 16%;*/
     word-spacing: 20px;
 }
 #navigation img {
@@ -50,30 +67,44 @@ p {
 	margin-left: 6%;
 }
 #navigation ul li {
-	padding-left: 90px;
-} 
+	padding-left: 95px;
+}
+#navigation ul li:first-child {
+	padding-left: 0px;
+}
+
+
 
 #container1 {
 	background-color: #E1E1E1;
 	height: 53vh;
-	display: flex;
-	flex-direction: row;
-
+	
 }
+
+.img {
+	width: 29.5%;
+	display: inline-block;
+}
+
+#middle {
+	margin: 0 5%;
+}
+
 
 #container1 img {
-	margin-left: 10%;
-	height: 40vh;
-	width: 50%;
+	/*margin-left: 10%;*/
 	border-top: solid;
+	margin-right: 10%;
+	width: 100%;
+	display: inline-block;
 }
+
+
 .img p {
 	color: black;
 	background-color: white ;
-	width: 50%;
 	height: 6vh;
 	margin: auto;
-	margin-left: 10%;
 	border-bottom: solid;
 	text-align: center;
 	font-weight: bold;
@@ -82,11 +113,131 @@ p {
 #container2 {
 	background-image: url("images/slideshow-1.jpg");
 	background-size: cover;
-	height: 77vh;
+	height: 50vh;
+
 }
 
+.center {
+	float: right;
+	background-color: #fff;
+	color: black;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	width: 50%;
+	height: 85%;
+	margin: 12% 0;
+	padding: 0 30px 15px 30px;
+
+}
+.center p {
+
+	letter-spacing: 3px;
+	color: black;
+}
 #container2 h1 p {
     border-top: 5px solid;
     border-bottom: 5px solid;
+
+}
+
+#container3 {
+	background-color: white;
+	height: 40vh;
+	display: flex;
+	margin: 100px auto;
+}
+
+.text {
+
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	width: 48%;
+	float: left;
+	height: 26vh;
+	margin-right: 40px;
+
+}
+
+.text p {
+	color: black;
+	letter-spacing: 4px;
+
+}
+.img2 {
+	float: right;
+
+}
+
+#container4 {
+	height: 12vh;
+	background-color: #EBEBEB;
+	display: flex;
+
+}
+input {
+	padding-top: 20px;
+	padding-right: 60px;
+
+
+}
+form {
+	margin: 32px;
+	width: 50%;
+	display: flex;
+}
+
+#container4 button {
+	background-color: black;
+	color: white;
+}
+
+#container4 p {
+	font-size: 22px;
+}
+#mention {
+
+	height: 50vh;
+}
+
+#mention ul {
+	list-style-type: none;
+	width: 100%;
+}
+#mention ul li {
+	margin-top: 8%;
+
+}
+#mention ul li a {
+	text-decoration: none;
+	color: black;
+}
+#mention il li a:hover {
+	color: #E6B58D;
+}
+
+#img3 {
+	margin-left: 50%;
+	margin-top: 5vh;
+}
+#img3 img {
+	height: 45px;
+	width: 40px;
+}
+
+#footer {
+	border-top: 1px solid #EBEBEB;
+	background-color: 
+	color: black;
+	font-size: 10px;
+	position: relative;
+	
+}
+
+
+.droite {
+	position: absolute;
+	right: 20%;
 
 }
